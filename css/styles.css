@@ -15,8 +15,7 @@ body {
 
 .h1, h2, h3, h4, h5, h6 {
     font-family: "montserrat-bold";
-   
-
+font-weight: bold;
    
 }
 
@@ -36,7 +35,7 @@ p {
 }
 
 .container-fluid {
-    padding: 7% 15%;
+    padding: 5% 15%;
 }
 
 /*headings*/
@@ -54,6 +53,15 @@ p {
    
 }
 
+/*sections*/
+.colored-section{
+    color: #fff;
+    background-color: #ff4c68;
+}
+
+.white-seection{
+background-color: #fff;
+}
 
 /*Navigation Bar*/
 
@@ -149,10 +157,8 @@ i:hover {
 /*Testimonial Section*/
 
 #testimonials {
-   
-  
     background-color: #ef8172;
-    color: #fff;
+ 
 }
 
 .testimonials-image {
@@ -169,7 +175,7 @@ i:hover {
 
 .press-logo {
     width: 15%;
-    margin: 20px 20px 20px 50px;
+    margin: 20px 20px 50px;
 }
 
 .testimonial-image {
@@ -228,12 +234,7 @@ i:hover {
 
 /*Call To Action*/
 
-#cta {
-    background-color: #ff4c68;
-   
-    color: #fff;
- 
-}
+
 
 
 
